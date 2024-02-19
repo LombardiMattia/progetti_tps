@@ -1,0 +1,22 @@
+body{
+    background-color: #ffff;
+}
+.box1{
+    width: 50%;
+    height: 20cm;
+    background-color: gray;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box2{
+    width: 50%;
+    height: 6cm;
+    background-color: red;
+}
+.box3{
+    width: 3cm;
+    height: 5cm;
+    margin-right: 3cm;
+    background-color: blue;
+    margin-top: 5rem;
+}
