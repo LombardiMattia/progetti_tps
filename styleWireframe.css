@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Riot&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+#contenitore {
+    margin: auto;
+    position: relative;
+}
+
+header {
+    background-color: #3A405A;
+    color: #fefefe;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header img {
+    height: 50px; /* Imposta l'altezza del logo */
+    margin-right: 10px; /* Aggiunge un margine destro per separare il logo dal titolo */
+}
+
+header h1 {
+    display: inline-block; /* Assicura che il titolo rimanga sulla stessa linea del logo */
+}
+
+header input[type="text"] {
+    padding: 5px; /* Aggiunge spazio interno alla casella di ricerca */
+    margin-top: 10px; /* Aggiunge spazio sopra la casella di ricerca */
+}
+
+#spallaSx, #centro, #spallaDx {
+    float: left;
+    color: #fefefe;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    height: 50rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.box {
+    background-color: #F9DEC9;
+    margin-bottom: 10px; /* Aggiunge spazio inferiore tra i box */
+    padding: 20px; /* Aggiunge spazio interno ai box */
+}
+
+#spallaSx {
+    width: 20%;
+}
+
+#centro {
+    width: 60%;
+}
+
+#spallaDx {
+    width: 20%;
+}
+
+.banner {
+    background-color: #99B2DD;
+}
+
+.full {
+    width: 100%; /* Imposta la larghezza del box al 100% del contenitore centrale */
+    height: 100px; /* Imposta l'altezza del box a larghezza intera */
+}
+
+footer {
+    background-color: #083D77;
+    margin-top: 51rem;
+    color: #fefefe;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    height: 14.2rem;
+}
+
+footer h2 {
+    margin: 10px 0; /* Aggiunge spazio sopra e sotto ogni titolo nel footer */
+}
+
+img {
+    filter: invert(100%);
+    height: 5rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+p {
+    margin-left: 9rem;
+    margin-top: -4.4rem;
+}
+
+#finale {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 14px;
+}
