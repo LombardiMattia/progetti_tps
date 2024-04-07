@@ -6,6 +6,7 @@
 
 body{
     background-color: #fefefe;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
 }
 
 .superiore{
@@ -164,7 +165,7 @@ body{
     transition-duration: 0.3s;
 }
 
-.barra3, #barra4{
+.barra3, #barra4, #barra5{
     background-color: orange;
     width: 0.8rem;
     height: 10rem;
@@ -176,13 +177,13 @@ body{
     font-family: Titillium Web, Arial, Helvetica, sans-serif;
 }
 
-.ese3 h1, #ese4 h1{
+.ese3 h1, #ese4 h1, #ese5 h1{
     font-size: 40px;
     margin-left: 3rem;
     margin-top: -11rem;
 }
 
-.ese3 p, #ese4 p{
+.ese3 p, #ese4 p, #ese5 p{
     font-size: 15px;
     text-align: justify;
     margin-left: 3rem;
@@ -190,7 +191,7 @@ body{
 }
 
 
-.b3 a, .b4 a{
+.b3 a, .b4 a, .b5 a {
     background-color: #000;
     position: absolute;
     margin-left: 3rem;
@@ -201,7 +202,7 @@ body{
 }
 
 
-.b3, .b4 :hover{
+.b3, .b4, .b5 :hover{
     color: gray;
     background-color: #091540;
     transition-duration: 0.2s;
