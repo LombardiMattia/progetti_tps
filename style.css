@@ -1,0 +1,454 @@
+/*MONTSERRAT API GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: auto;
+    padding: none;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+/*box superiore*/
+.superiore{
+    background-color: #001d3d;
+    width: 100%;
+    position: relative;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.superiore img{
+    position: relative;
+    float: left;
+    width: 1.5rem;
+    filter: invert(100%);
+    left: 15rem;
+    display: inline;
+    top: 0.1rem;
+}
+
+.superiore #testo_superiore{
+    position: relative;
+    float: left;
+    color: #fefefe;
+    font-size: 14px;
+    display: inline;
+    left: 15.5rem;
+    top: 0.3rem;
+}
+
+/*header*/
+    header{
+        background-color: #0466c8;
+        width: 100%;
+        height: 4rem;
+        position: relative;
+    }
+
+    header img{
+        position: absolute;
+        width: 12rem;
+        top: -3.3rem;
+        filter: invert(100%);
+        left: 15rem;
+    }
+
+    header .links a{
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fefefe;
+        left: 32rem;
+        top: 1rem;
+        margin-right: 2rem;
+    }
+
+    /*passaggio cursore*/
+    header .links a:hover{
+        text-decoration: underline;
+        color: #98c6f5;
+    }
+
+/*inferiore*/
+    .inferiore{
+        background-color: #98c6f5;
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .links a{
+        text-decoration: none;
+        color: black;
+        position: relative;
+        left: 15.5rem;
+        top: 0.5rem;
+        margin-right: 2rem;
+        font-weight: bold;
+    }
+
+    a.home{
+        text-decoration: underline;
+        color: #0466c8;
+    }
+
+    /*passaggio cursore*/
+
+    .links a:hover{
+        color: #0466c8;
+    }
+    a.home:hover{
+        color: #2d90f3;
+    }
+
+
+/*box centrale*/
+    .box_centrale{
+        background-color: #094ed9;
+        position: relative;
+        top: 3rem;
+        width: 50rem;
+        margin: auto;
+        border-radius: 12px;
+        height: 15rem;
+    }
+
+    .box_centrale #titolo{
+        display: block;
+        position: relative;
+        color: #fefefe;
+        font-weight: bold;
+        left: 2rem;
+        top: 2rem;
+        font-size: 25px;
+    }
+
+    .box_centrale #testo{
+        display: block;
+        position: relative;
+        color: #fefefe;
+        left: 2rem;
+        top: 2.5rem;
+    }
+
+    .box_centrale a{
+        text-decoration: none;
+        font-weight: bold;
+        position: absolute;
+        color: #fefefe;
+        left: 2rem;
+        top: 12rem;
+    }
+
+    .box_centrale .material-symbols-outlined{
+        color: #fefefe;
+        position: absolute;
+        top: 11.8rem;
+        left: 17rem;
+    }
+
+    .box_centrale img{
+        position: absolute;
+        width: 15rem;
+        left: 35rem;
+        top: -0.3rem;
+    }
+
+    /*passaggio cursore link*/
+    .box_centrale a:hover{
+        text-decoration: underline;
+    }
+
+    /*passaggio box centrale cursore*/
+    .box_centrale:hover{
+        cursor: default;
+    }
+
+    .generale{
+        width: 100%;
+
+        position: relative;
+        top: 7rem;
+        height: 70rem;
+    }
+
+    /*notifica*/
+    .notifica_1{
+        background-color: #f5b515;
+        width: 37rem;
+        height: 3rem;
+        margin: auto;
+        border-radius: 9px;
+    }
+
+    .notifica_1 .material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' 0,
+    'opsz' 24
+    }
+
+    .notifica_1 .material-symbols-outlined{
+        position: relative;
+        left: 1rem;
+        top: 0.7rem;
+    }
+
+    .notifica_1 #testo{
+        position: relative;
+        font-size: 14px;
+        left: 1rem;
+        top: 0.27rem;
+    }
+    /*passaggio cursore*/
+    .notifica_1:hover{
+        cursor: default;
+        background-color: #f4c652;
+    }
+
+    /*esercitazioni HTML*/
+    .esercitazioni_html{
+        position: relative;
+        top: 2rem;
+        width: 40rem;
+        margin: auto;
+    }
+
+    .esercitazioni_html div{
+        width: 14rem;
+        background-color: rgb(225, 237, 242);
+        height: 10rem;
+        margin-right: 1rem;
+        border-radius: 11px;
+        float: left;
+    }
+
+    .esercitazioni_html div #titolo{
+        display: block;
+        font-size: 18px;
+        position: relative;
+        text-align: center;
+        top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .esercitazioni_html div #testo{
+        font-size: 14px;
+        position: relative;
+        left: 2rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .esercitazioni_html a{
+        display: block;
+        position: relative;
+        font-size: 14px;
+        top: 2.5rem;
+        left: 2.5rem;
+        text-decoration: none;
+        color: #094ed9;
+        font-weight: bold;
+    }
+
+    .esercitazioni_html .material-symbols-outlined{
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 150,
+        'GRAD' 0,
+        'opsz' 24
+    }
+
+    .esercitazioni_html .material-symbols-outlined{
+        position: relative;
+        left: 9rem;
+        top: 1.3rem;
+    }
+
+    /*passaggio cursore*/
+    .esercitazioni_html div:hover{
+        background-color: #eff3f7;
+        cursor: default;
+    }
+
+    .esercitazioni_html a:hover{
+        text-decoration: underline;
+    }
+
+    #esercizio1{
+        position: relative;
+        margin-left: 5.3rem;
+    }
+
+/*notifica 2*/
+.notifica_2{
+    clear: both;
+    background-color: #1ec20f;
+    width: 37rem;
+    height: 3rem;
+    margin: auto;
+    border-radius: 9px;
+    position: relative;
+    top: 5rem;
+}
+
+.notifica_2 .material-symbols-outlined{
+font-variation-settings:
+'FILL' 0,
+'wght' 100,
+'GRAD' 0,
+'opsz' 24
+}
+
+.notifica_2 .material-symbols-outlined{
+    position: relative;
+    top: 0.7rem;
+    left: 2rem;
+}
+
+.notifica_2 #testo{
+    font-size: 14px;
+    position: relative;
+    left: 2rem;
+    top: 0.25rem;
+}
+
+.notifica_2:hover{
+    background-color: #51f143;
+    cursor: default;
+}
+
+/*esercitazioni Css*/
+    .esercitazioni_css{
+    position: relative;
+    top: 7rem;
+    width: 40rem;
+    margin: auto;
+    }
+
+    .esercitazioni_css div{
+        width: 14rem;
+        background-color: rgb(225, 237, 242);
+        height: 10rem;
+        margin-right: 1rem;
+        border-radius: 11px;
+        float: left;
+        margin-top: 1rem;
+    }
+
+    .esercitazioni_css div #titolo{
+        display: block;
+        font-size: 18px;
+        position: relative;
+        text-align: center;
+        top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .esercitazioni_css div #testo{
+        font-size: 14px;
+        position: relative;
+        left: 2rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .esercitazioni_css a{
+        display: block;
+        position: relative;
+        font-size: 14px;
+        top: 2.5rem;
+        left: 2.5rem;
+        text-decoration: none;
+        color: #094ed9;
+        font-weight: bold;
+    }
+
+    .esercitazioni_css .material-symbols-outlined{
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 150,
+        'GRAD' 0,
+        'opsz' 24
+    }
+
+    .esercitazioni_css .material-symbols-outlined{
+        position: relative;
+        left: 9rem;
+        top: 1.3rem;
+    }
+
+    /*passaggio cursore*/
+    .esercitazioni_css div:hover{
+        background-color: #eff3f7;
+        cursor: default;
+    }
+
+    .esercitazioni_css a:hover{
+        text-decoration: underline;
+    }
+
+    #esercizio3{
+        position: relative;
+        margin-top: 1rem;
+        margin-left: 5.4rem;
+    }
+
+    #esercizio5{
+        position: relative;
+        margin-left: 5.4rem;
+    }
+
+/*linea finale*/
+.linea{
+    background-color: #0466c8;
+    width: 100%;
+}
+
+/*footer*/
+    footer{
+        background-color: #001d3d;
+        width: 100%;
+        height: 1
+        30rem;
+    }
+
+    footer #immagine_1 img{
+        filter: invert(100%);
+        position: relative;
+        width: 14rem;
+        left: 15rem;
+        top: -2rem;
+    }
+
+    footer #testo_1{
+        color: #fefefe;
+        position: relative;
+        left: 35rem;
+        top: -12rem;
+        font-size: 14px;
+    }
+
+    footer .linea_interna{
+        background-color: #0d3965;
+        height: 0.2rem;
+        position: relative;
+        top: -10rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    #immagine_2 img{
+        filter: invert(100%);
+        width: 4rem;
+        position: relative;
+        left: 15.5rem;
+        top: -7rem;
+    }
+
+    #tMinistero{
+        color: #fefefe;
+        font-weight: bold;
+        position: relative;
+        left: 16rem;
+        top: -9.5rem;
+    }
