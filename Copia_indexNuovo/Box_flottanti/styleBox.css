@@ -1,0 +1,87 @@
+body{
+    margin: auto;
+    padding: none;
+}
+
+#box_esterno{
+    background-color: #AFCBFF;
+    height: 20rem;
+    padding: 2rem;
+    width: 50%;
+    margin: auto;
+    /*facoltativo*/
+    position: relative;
+    top: 4rem;
+}
+
+#box_esterno #box_primo{
+    background-color: #D7F9FF;
+    width: 50%;
+    height: 6rem;
+    border: 1px dashed #0E1C36;
+}
+
+#box_esterno #box_secondo{
+    background-color: #F9FBF2;
+    width: 50%;
+    height: 5rem;
+    float: right;
+    margin-top: 9rem;
+    margin-right: 3rem;
+    border: 1px dotted #0E1C36;
+}
+
+
+/*box informazione sottostante*/
+#informazione{
+    position: relative;
+    top: 10rem;
+    width: 80%;
+    margin: auto;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    background-color: #FFEDE1;
+    padding: 1.5rem;
+    border-radius: 11px;
+}
+
+#informazione:hover{
+    cursor: default;
+    background-color: #f9f0ea;
+}
+
+/*bottone*/
+#button{
+    position: relative;
+    top: 13rem;
+    margin: auto;
+    width: 11rem;
+    background-color: #001d3d;
+    height: 3rem;
+    border-radius: 11px;
+    color: #fefefe;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+#button a{
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+#button .material-symbols-outlined{
+    position: relative;
+    left: 0.5rem;
+    top: 0.6rem;
+}
+
+#button:hover{
+    background-color: #044386;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
