@@ -1,0 +1,383 @@
+body {
+    margin: auto;
+    background-color: #ffff;
+    display: block;
+}
+
+header {
+    background-color: #03045e;
+    width: 100%;
+    height: 4rem;
+    display: flex; /* Utilizziamo flexbox per allineare i contenuti */
+    align-items: center; /* Centra verticalmente il contenuto */
+    justify-content: space-between; /* Distribuisce uniformemente gli elementi */
+    padding: 0 1rem; /* Aggiungiamo spazio intorno ai contenuti dell'header */
+}
+
+
+p{
+    color: #fefefe;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+img{
+    float: left;
+    width: 5rem;
+    margin-left: 2rem;
+}
+
+form {
+    display: flex; /* Utilizziamo flexbox per allineare i contenuti del form */
+    align-items: center; /* Centra verticalmente il contenuto */
+    margin-right: 2rem;
+}
+
+form #search, 
+form #button {
+    padding: 5px;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #fefefe;
+    border: none;
+    border-radius: 16px;
+}
+
+form #search {
+    margin-right: 8px; /* Aggiungiamo un margine destro tra la casella di ricerca e il pulsante */
+    right: 10rem;
+}
+
+form #button{
+    padding: 5px 10px;
+}
+
+form #button:hover {
+    background-color: #023e8a;
+    color: white; /* Cambiamo il colore del testo */
+    transition: 0.3s;
+    transition-delay: 0.1s;
+}
+
+form #button:not(:hover) {
+    background-color: #fefefe; /* Mantieni il colore quando il mouse esce */
+    color: black;
+    transition: background-color 0.2s ease 0.2s, color 0.2s ease 0.2s; /* Transizioni con ritardo */
+}
+
+/*navbar*/
+    .contieni ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #caf0f8;
+        overflow: hidden;
+        height: 2.5rem;
+    }
+
+    #home{
+        margin-left: 3rem;
+    }
+
+    .contieni li{
+        display: inline;
+        margin-left: 1rem;
+        font-family: Titillium Web, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        float: left;
+    }
+
+    .contieni li a{
+        padding: 0.5rem;
+    }
+
+
+    .contieni a{
+        text-decoration: none;
+        color: #03045e;
+        display: block;
+    }
+
+    .contieni li a:hover{
+        background-color: #90e0ef;
+        color: #0096c7;
+    }
+
+
+
+.sinistra{
+    float: left;
+    position: relative;
+    background-color: #0096c7;
+    width: 20%;
+    height: 50rem;
+}
+
+#box_1, #box_2, #box_3,#box_4{
+    background-color: #90e0ef;
+    position:relative;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    top: 1rem;
+    padding: 2rem;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fefefe;
+    margin-top: 1rem;
+}
+
+#centro{
+    background-color: #023e8a;
+    position: relative;
+    width: 55%;
+    height: 50rem;
+    float: left;
+}
+
+#banner{
+    background-color: #0096c7;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #fefefe;
+}
+
+.contenitore_titoli{
+    background-color: none;
+    width: 90%;
+    position: relative;
+    top: 1rem;
+    margin: auto;
+    margin: none;
+    padding: none;
+}
+
+.box{
+    background-color: #00b4d8;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fefefe;
+    width: calc(90%/3 - 50px);
+    margin-top: 2rem;
+    padding: 1rem;
+    float: left;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.contenitore_grande{
+    background-color: #0077b6;
+    clear: both;
+    top: 4rem;
+    height: 12rem;
+    width:90% ;
+    position: relative;
+    margin: auto;
+}
+
+#box_p, #box_s{
+    background-color: #caf0f8;
+    color: #03045e;
+    position: relative;
+    top: 1rem;
+    width: 92%;
+    margin: auto;
+    padding: 0.8rem;
+    border-radius: 50px;
+}
+
+#box_p h1, #box_s h1{
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding:0;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-top: -0.5rem;
+}
+
+#box_p p, #box_s p{
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    color: #03045e;
+    font-size: 15px;
+    padding:0;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-top: -1rem;
+}
+
+#box_s{
+    margin-top: 1rem;
+}
+
+#box_s p{
+    margin-top: 0.2rem;
+}
+
+#destra{
+    background-color: #ade8f4;
+    float: left;
+    position: relative;
+    width: 25%;
+    height: 50rem;
+}
+
+#intestazione{
+    position: relative;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 1rem;
+    top: 2rem;
+    margin: auto;
+    background-color: #caf0f8;
+    color: #03045e;
+    width: 80%;
+    text-align: center;
+}
+
+#tabella{
+    position: relative;
+    margin: auto;
+    top: 6rem;
+    width: 65%;
+    border: 2px solid #03045e;;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #03045e;
+}
+
+table td, tr{
+    border: 2px solid #03045e;
+}
+
+table .dispari{
+    background-color: #caf0f8;
+}
+
+table .pari{
+    background-color: #023e8a;
+    color: #fefefe;
+}
+
+table .giorni{
+    background-color: #03045e;
+    color: #fefefe;
+}
+
+#titolo_calendario{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #03045e;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    top: 4rem;
+}
+
+    .menu_verticale{
+        position: relative;
+        background-color: #caf0f8;
+        top: 7rem;
+        font-family: Titillium Web, Arial, Helvetica, sans-serif;
+        width: 90%;
+        margin: auto;
+        height: 17rem;
+    }
+
+    .menu_verticale ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu_verticale li a{
+        display: block;
+        width: 10rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .menu_verticale h1{
+        color: #03045e;
+        position: relative;
+        top: 0.3rem;
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .menu_verticale a{
+        display: block;
+        margin-left: 0.5rem;
+        text-decoration: none;
+        color: #03045e;
+        font-weight: bold;
+        padding: 0.5rem;
+    }
+
+    .menu_verticale a:hover{
+        background-color: #90e0ef;
+    }
+
+footer{
+    background-color: #03045e;
+    height: 80rem;
+}
+
+footer img{
+    width: 4rem;
+    margin-top: 2rem;
+    filter: invert(100%);
+}
+
+#testi_footer{
+    position: relative;
+    left: 1.5rem;
+    top: 3.5rem;
+    color: #fefefe;
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 2rem;
+}
+
+footer p{
+    text-align: left;
+    position: relative;
+    left: 1.5rem;
+    top: 7rem;
+    height: 1rem;
+}
+
+
+#finale img{
+    filter:invert(0%);
+    width:  9rem;
+}
+
+#finale{
+    margin:none;
+    padding: none;
+    position: relative;
+    top: 13rem;
+    left: -8rem;
+}
+
+
+#testo{
+    font-family: Titillium Web, Arial, Helvetica, sans-serif;
+    color: #fefefe;
+    position: relative;
+    top: 17.5rem;
+    left: -9rem;
+}
