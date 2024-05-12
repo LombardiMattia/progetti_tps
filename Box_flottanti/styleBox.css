@@ -23,7 +23,7 @@ body{
 
 #box_esterno #box_secondo{
     background-color: #F9FBF2;
-    width: 50%;
+    width: 4rem;
     height: 5rem;
     float: right;
     margin-top: 9rem;
@@ -84,4 +84,5 @@ body{
     cursor: pointer;
     transition: 0.2s;
 }
+
 
