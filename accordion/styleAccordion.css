@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: auto;
+    padding: none;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.superiore{
+    background-color: #001d3d;
+    width: 100%;
+    position: relative;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.superiore img{
+    position: relative;
+    float: left;
+    width: 1.5rem;
+    filter: invert(100%);
+    left: 15rem;
+    display: inline;
+    top: 0.1rem;
+}
+
+.superiore #testo_superiore{
+    position: relative;
+    float: left;
+    color: #fefefe;
+    font-size: 14px;
+    display: inline;
+    left: 15.5rem;
+    top: 0.3rem;
+}
+
+/*header*/
+    header{
+        background-color: #0466c8;
+        width: 100%;
+        height: 4rem;
+        position: relative;
+    }
+
+    header img{
+        position: absolute;
+        width: 12rem;
+        top: -3.3rem;
+        filter: invert(100%);
+        left: 15rem;
+    }
+
+    header .links a{
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fefefe;
+        left: 32rem;
+        top: 1rem;
+        margin-right: 2rem;
+    }
+
+    /*passaggio cursore*/
+    header .links a:hover{
+        text-decoration: underline;
+        color: #98c6f5;
+    }
+
+/*inferiore*/
+    .inferiore{
+        background-color: #98c6f5;
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .links a{
+        text-decoration: none;
+        color: black;
+        position: relative;
+        left: 15.5rem;
+        top: 0.5rem;
+        margin-right: 2rem;
+        font-weight: bold;
+    }
+
+    a.home{
+        text-decoration: underline;
+        color: #0466c8;
+    }
+
+    /*passaggio cursore*/
+
+    .links a:hover{
+        color: #0466c8;
+    }
+    a.home:hover{
+        color: #2d90f3;
+    }
+
+    .box_centrale{
+        background-color: #094ed9;
+        position: relative;
+        top: 3rem;
+        width: 50rem;
+        margin: auto;
+        border-radius: 12px;
+        height: 15rem;
+    }
+
+    .box_centrale #titolo{
+        display: block;
+        position: relative;
+        color: #fefefe;
+        font-weight: bold;
+        left: 2rem;
+        top: 2rem;
+        font-size: 25px;
+    }
+
+    .box_centrale #testo{
+        display: block;
+        position: relative;
+        color: #fefefe;
+        left: 2rem;
+        top: 2.5rem;
+    }
+
+    .box_centrale a{
+        text-decoration: none;
+        font-weight: bold;
+        position: absolute;
+        color: #fefefe;
+        left: 2rem;
+        top: 12rem;
+    }
+
+    .box_centrale .material-symbols-outlined{
+        color: #fefefe;
+        position: absolute;
+        top: 11.8rem;
+        left: 17rem;
+    }
+
+    .box_centrale img{
+        position: absolute;
+        width: 15rem;
+        left: 35rem;
+        top: -0.3rem;
+    }
+
+    /*passaggio cursore link*/
+    .box_centrale a:hover{
+        text-decoration: underline;
+    }
+
+    /*passaggio box centrale cursore*/
+    .box_centrale:hover{
+        cursor: default;
+    }
+
+
+    /*accordion*/
+    .accordion {
+        width: 80%;
+        max-width: 600px;
+        border: 1px solid #ddd;
+        border-radius: 10px; /* Bordi curvi */
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: auto;
+        position: relative;
+        top: 6rem;
+    }
+    
+    .accordion-item:last-child {
+        border-bottom: none;
+    }
+    
+    .accordion-header {
+        width: 95%;
+        padding: 15px;
+        text-align: left;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.3s ease;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .accordion-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background-color: #f9f9f9;
+        padding: 0 15px;
+        border-bottom-left-radius: 10px; /* Arrotonda solo i bordi inferiori */
+        border-bottom-right-radius: 10px;
+    }
+    
+    /* Nascondi la casella di controllo */
+    .accordion-toggle {
+        display: none;
+    }
+    
+    /* Quando la casella di controllo è selezionata (checked) */
+    .accordion-toggle:checked + .accordion-header + .accordion-content {
+        max-height: 200px; /* Altezza massima della descrizione */
+    }
+    
+    /* Aggiunto */
+    .accordion-toggle {
+        display: none;
+    }
+    
+    .accordion-toggle:checked + .accordion-header + .accordion-content {
+        max-height: 200px; /* Altezza massima della descrizione */
+    }
+
+    /* Aggiungi stili per l'icona freccia */
+.accordion-header .arrow i {
+    color: #fff;
+    transition: transform 0.3s ease; /* Aggiunta transizione */
+}
+
+/* Ruota l'icona quando l'accordion è aperto */
+.accordion-toggle:checked + .accordion-header .arrow i {
+    transform: rotate(180deg);
+}
+
+/* Ruota l'icona quando l'accordion è chiuso */
+.accordion-toggle:not(:checked) + .accordion-header .arrow i {
+    transform: rotate(0deg);
+}
+
+#primo{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #fefefe;
+}
+
+#secondo{
+    border-bottom: 1px solid #fefefe;
+}
+
+#ultimo{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+
