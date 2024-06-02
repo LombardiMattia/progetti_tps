@@ -408,11 +408,22 @@ font-variation-settings:
         margin-left: 5.4rem
     }
 
+ #esercizio11{
+        position: relative;
+        left: 13rem;
+    }
+
+    #esercizio11 #testo{
+        position: relative;
+        left: 2.5rem;
+    }
+
+
 /*linea finale*/
 .linea{
     background-color: #0466c8;
     width: 100%;
-    margin-top: 20rem;
+    margin-top: 35rem;
 }
 
 /*footer*/
